@@ -1,0 +1,8 @@
+<div class="flex flex-col gap-2">
+    <label for="username">Valor</label>
+    <input pInputText id="username" aria-describedby="username-help" [(ngModel)]="value" />
+</div>
+<div class="mt-5 flex justify-end">
+    <p-button (onClick)="closeDialog()" [disabled]="!value" severity="info" label="Guardar" icon="pi pi-save"
+        outlined="true" rounded="true" />
+</div>
