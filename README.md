@@ -5,6 +5,8 @@
 La lógica principal de la aplicación se encuentra en:
 src/app/features/compiler/compiler.component.ts
 
+Puedes ver y usar la aplicación en el siguiente enlace: https://main.d2e9t5rqow1p22.amplifyapp.com/
+
 ## 🛠️ Instalación
 
 ### Requisitos previos
