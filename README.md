@@ -2,6 +2,9 @@
 
 ### NOTA: El analizador solo toma en cuenta la parte semántica, por lo que el analizador no reconocerá errores sintácticos. Asegurese de comprobar que la sintaxis es correcta antes de proceder.
 
+La lógica principal de la aplicación se encuentra en:
+src/app/features/compiler/compiler.component.ts
+
 ## 🛠️ Instalación
 
 ### Requisitos previos
@@ -33,9 +36,6 @@ Puedes instalar Angular CLI desde el cmd:
 5. Abre tu navegador en: http://localhost:4200
 
 ## Cómo funciona
-
-La lógica principal de la aplicación se encuentra en:
-src/app/features/compiler/compiler.component.ts
 
 En esta sección puedes escribir el código que deseas analizar y ejecutar.
 También puedes usar el botón "Abrir" para cargar un archivo de texto desde tu equipo. 
